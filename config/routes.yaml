@@ -2,6 +2,10 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+app_plain:
+  path: /plain
+  controller: App\Controller\HomeController::plain
+
 app_welcome:
   path: /welcome
   controller: App\Controller\HomeController::index

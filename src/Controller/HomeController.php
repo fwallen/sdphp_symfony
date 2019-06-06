@@ -11,4 +11,9 @@ class HomeController extends AbstractController
     {
         return $this->render('first.html.twig');
     }
+
+    public function plain()
+    {
+        return $this->render('plain.html.twig');
+    }
 }
