@@ -14,6 +14,8 @@ class HomeController extends AbstractController
 
     public function plain()
     {
-        return $this->render('plain.html.twig');
+        return $this->render('plain.html.twig', [
+            'dynamic' => 'Some dynamic data',
+        ]);
     }
 }
