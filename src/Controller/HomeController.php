@@ -15,7 +15,8 @@ class HomeController extends AbstractController
     public function plain()
     {
         return $this->render('plain.html.twig', [
-            'dynamic' => 'Here is a title',
+            'myTitle' => 'Here is a title',
+            'list' => ['Loquats','Bananas','Dorian Fruit'],
         ]);
     }
 }
